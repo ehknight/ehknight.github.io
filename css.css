@@ -23,7 +23,7 @@ p { -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; }
 
 .avatar img { width: 30px; height: 30px; -webkit-border-radius: 15px; -moz-border-radius: 15px; border-radius: 15px; }
 .caption { margin: 0 0 60px 20px; }
-.caption a { font: 14px/16px 'Unica One', Helvetica, Arial, sans-serif; letter-spacing: .1em; color: #999; text-transform: uppercase; text-decoration: none; }
+.caption a { font: 14px/16px 'Unica One', Helvetica, Arial, sans-serif; letter-spacing: .1em; color: #999; text-decoration: none; }
 .caption a:not(:first-child) { margin-left: 8px; }
 .caption a:hover { background-color: #ddd; }
 
@@ -66,3 +66,19 @@ p { -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; }
 .section-oak h2 { font: 24px/24px 'Unica One', sans-serif; text-transform: uppercase; text-align: center; color: #c31; margin: 20px 20px 30px; }
 .section-oak p { font: 16px/24px 'Vollkorn', serif; color: #333; width: 460px; text-align: justify; margin: 0 auto;}
 .section-oak .oak-leaf { margin-top: 60px; }
+
+.leftalign {
+  text-align: justify; margin: 0 auto;  
+}
+
+h1, h3, h4, li, btn, a {
+  font-family: "Unica One";
+  color: #c31;
+  }
+
+.proj {
+  width: 460px; text-align: justify; margin: 0 auto;
+}
+
+li { font: 16px/24px 'Vollkorn', serif; color: #333; width: 460px; text-align: justify; margin: 0 auto;}
+.list a { font: 16px/24px 'Vollkorn', serif; color: #337ab7; width: 460px; text-align: justify; margin: 0 auto;}
